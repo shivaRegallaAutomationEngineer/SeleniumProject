@@ -13,7 +13,7 @@ public class FirstSeleniumProgram {
 System.setProperty("webdriver.chrome.driver", "D:\\Batch_2_manual testing_SQL\\Automation\\Softwares\\chromedriver.exe");
   
 WebDriver driver= new ChromeDriver();
-
+WebDriver driver1= new ChromeDriver();
 driver.get("http://spicejet.com/"); // enter URL
 driver.manage().window().maximize();
 WebElement date = driver.findElement(By.id("ctl00_mainContent_txt_Fromdate"));
